@@ -1,0 +1,35 @@
+
+{"intents": [
+        {"tag": "meet",
+         "patterns": ["hey", "how are you","hi" ,"you there","is anyone there", "hello", "good day", "hows it been","whats up"],
+         "responses": ["여보세요 (Hello/yeoboseyo)", "안녕 (Hi/annyeong)", "오늘 어떠니 (how are you today?/oneul eotteoni)"],
+         "context_set": ""
+        },
+        {"tag": "bye",
+         "patterns": ["see you","cya", "bye bye", "goodbye","i am gonna go", "i am leaving", "have a good day", "later", "ttyl"],
+         "responses": ["나중에 보자 (see you later/najung-e boja)", "나중에 얘기해 (Talk to you later/najung-e yaegihae)"],
+         "context_set": ""
+        },
+        {"tag": "intro",
+         "patterns": ["tell me about yourself", "who are you", "what is your name", "can we talk about you", "introduce yourself"],
+         "responses": ["나는 코딩하는 것을 좋아한다! (I like to code!/naneun kodinghaneun geos-eul joh-ahanda!)", "나는 19 살이다 (I am 19 years old!/naneun 19 sal-ida)"],
+         "context_set": ""
+        },
+        {"tag": "hangout",
+         "patterns": ["what do you wanna do", "I am bored", "lets play", "life is lonely", "it is boring", "can you do something fun"],
+         "responses": ["영화 보러가 (watch movies/yeonghwa boleoga)", "당신은 유튜브를 볼 수 있습니다 (you can watch youtube/dangsin-eun yutyubeuleul bol su issseubnida)",
+           "새로운 사람들을 만나러 가 (go meet new people/saeloun salamdeul-eul mannaleo ga)"],
+         "context_set": ""
+        },
+        {"tag": "hobbies",
+         "patterns": ["what do you like", "any hobbies", "like anything", "anything you like to do"],
+         "responses": ["나는 너와 놀고 싶어 (I like hanging out with you!/", "i like talking to you"],
+         "context_set": ""
+        },
+        {"tag": "advice",
+         "patterns": ["i dont know what to do", "i am screwed", "help me", "save me", "advice", "sad", "depressed", "sucks", "hate"],
+         "responses": ["괜찮을거야 (it will be okay!/gwaenchanh-eulgeoya)", "좋아질거야 (it will get better!/joh-ajilgeoya)"],
+         "context_set": ""
+        }
+   ]
+}
